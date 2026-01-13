@@ -71,3 +71,6 @@ export async function DELETE(
 
   return NextResponse.json(user);
 }
+export async function generateStaticParams() {
+  return [];
+}
